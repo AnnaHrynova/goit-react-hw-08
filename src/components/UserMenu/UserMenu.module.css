@@ -1,0 +1,68 @@
+.userMenuWrap {
+    display: inline;
+    margin-left: 420px;
+  }
+  
+  .userMenu {
+    display: inline;
+    font-size: 24px;
+  }
+  
+  .logoutBtn {
+    margin-left: 10px;
+    font-size: 24px;
+    border: 1px solid #914ef5;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .logoutBtn:hover {
+    background-color: white;
+  }
+  
+  .userName {
+    color: #914ef5;
+  }
+
+  .userMenuWrap {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .userMenu {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5b3ea3; /* Deep violet for text */
+    margin: 0;
+  }
+  
+  .userName {
+    color: #7a5bcd; /* Slightly lighter violet for username */
+  }
+  
+  .logoutBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #7a5bcd, #5b3ea3); /* Gradient button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .logoutBtn:hover {
+    background: linear-gradient(135deg, #6947b5, #4a2b85); /* Darker gradient on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  
+  .logoutBtn:focus {
+    outline: none;
+  }
+  

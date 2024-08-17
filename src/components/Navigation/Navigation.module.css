@@ -1,0 +1,46 @@
+/* .navWrap {
+    display: inline;
+  } */
+  
+  /* .nav {
+    text-decoration: none;
+    font-size: 24px;
+    color: #914ef5;
+  } */
+  
+  .home {
+    margin-left: 15px;
+  }
+  
+  .contacts {
+    margin-left: 50px;
+  }
+
+  .navWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif; /* Modern font */
+  }
+  
+  .nav {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5b3ea3; /* Deep violet for text */
+    text-decoration: none;
+    transition: color 0.3s ease, color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .nav:hover {
+    color: #ec41ff; /* Light grey background on hover */
+  }
+  
+  .nav.active {
+     /* Gradient button background on active */
+     color: #ec41ff;/* Remove underline on active */
+  }
+  
