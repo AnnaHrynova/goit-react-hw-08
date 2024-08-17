@@ -1,27 +1,27 @@
-/* HomeLoggedIn.module.css */
+
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh; /* Centers content vertically */
+  min-height: 80vh; 
   text-align: center;
-  font-family: 'Inter', sans-serif; /* Modern font */
-  color: #4a4a4a; /* Soft dark text color */
+  font-family: 'Inter', sans-serif; 
+  color: #4a4a4a; 
 }
 
 .title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #5a3d9c; /* Deep violet color */
+  color: #5a3d9c; 
   margin: 0;
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between text and icon */
+  gap: 10px; 
 }
 
 .userName {
-  color: #914ef5; /* Light violet color for username */
+  color: #914ef5; 
   margin-left: 10px;
-  font-size: 2.8rem; /* Slightly larger for emphasis */
+  font-size: 2.8rem; 
 }

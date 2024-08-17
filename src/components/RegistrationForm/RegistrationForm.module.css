@@ -2,19 +2,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Center vertically */
-    background-color: #f4f4f9; /* Very light grey background */
+    height: 100vh; 
+    background-color: #f4f4f9; 
   }
   
   .formWrap {
-    background-color: #faf9ff; /* Very light violet background */
+    background-color: #faf9ff; 
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif; /* Modern font */
+    font-family: 'Inter', sans-serif; 
   }
   
   .fieldWrap {
@@ -25,7 +25,7 @@
   .label {
     font-size: 14px;
     font-weight: 600;
-    color: #5b3ea3; /* Deep violet for text */
+    color: #5b3ea3; 
     display: flex;
     align-items: center;
     margin-bottom: 8px;
@@ -39,7 +39,7 @@
     width: 100%;
     padding: 12px;
     font-size: 16px;
-    border: 1px solid #d1c4f7; /* Light violet border */
+    border: 1px solid #d1c4f7; 
     border-radius: 8px;
     background-color: #ffffff;
     color: #333;
@@ -49,12 +49,12 @@
   
   .field:focus {
     outline: none;
-    border-color: #7a5bcd; /* Slightly darker border on focus */
-    box-shadow: 0 0 8px rgba(122, 91, 205, 0.3); /* Subtle shadow on focus */
+    border-color: #7a5bcd; 
+    box-shadow: 0 0 8px rgba(122, 91, 205, 0.3); 
   }
   
   .error {
-    color: #d9534f; /* Modern red for error messages */
+    color: #d9534f; 
     font-size: 12px;
     margin-top: 5px;
   }
@@ -65,7 +65,7 @@
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
-    background: linear-gradient(135deg, #7a5bcd, #5b3ea3); /* Gradient button */
+    background: linear-gradient(135deg, #7a5bcd, #5b3ea3); 
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -74,8 +74,8 @@
   }
   
   .button:hover {
-    background: linear-gradient(135deg, #6947b5, #4a2b85); /* Darker gradient on hover */
-    transform: translateY(-2px); /* Subtle lift effect */
+    background: linear-gradient(135deg, #6947b5, #4a2b85); 
+    transform: translateY(-2px); 
   }
   
   .button:focus {

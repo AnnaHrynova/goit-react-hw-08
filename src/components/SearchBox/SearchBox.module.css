@@ -1,18 +1,18 @@
 .inputWrap {
-  background-color: #faf9ff; /* Very light violet background */
+  background-color: #faf9ff; 
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   margin: 20px auto;
-  font-family: 'Inter', sans-serif; /* Modern font */
+  font-family: 'Inter', sans-serif; 
   box-sizing: border-box;
 }
 
 .label {
   font-size: 14px;
   font-weight: 600;
-  color: #5b3ea3; /* Deep violet for text */
+  color: #5b3ea3; 
   margin-bottom: 10px;
   display: block;
 }
@@ -21,7 +21,7 @@
   width: 100%;
   padding: 12px;
   font-size: 16px;
-  border: 1px solid #d1c4f7; /* Light violet border */
+  border: 1px solid #d1c4f7; 
   border-radius: 8px;
   background-color: #ffffff;
   color: #333;
@@ -31,6 +31,6 @@
 
 .input:focus {
   outline: none;
-  border-color: #7a5bcd; /* Slightly darker border on focus */
-  box-shadow: 0 0 8px rgba(122, 91, 205, 0.3); /* Subtle shadow on focus */
+  border-color: #7a5bcd; 
+  box-shadow: 0 0 8px rgba(122, 91, 205, 0.3); 
 }

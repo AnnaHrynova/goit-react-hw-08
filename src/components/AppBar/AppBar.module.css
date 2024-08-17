@@ -1,9 +1,8 @@
-/* AppBar.module.css */
 
 .container {
-    background-color: #f0ecff; /* Very light violet background */
+    background-color: #f0ecff; 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    font-family: 'Inter', sans-serif; /* Modern font */
+    font-family: 'Inter', sans-serif; 
     box-sizing: border-box;
   }
   
@@ -20,7 +19,7 @@
   hr {
     border: 0;
     height: 1px;
-    background: linear-gradient(90deg, #7a5bcd, #5b3ea3); /* Violet gradient divider */
+    background: linear-gradient(90deg, #7a5bcd, #5b3ea3); 
     margin: 0;
     padding: 0;
     margin-top: 10px;

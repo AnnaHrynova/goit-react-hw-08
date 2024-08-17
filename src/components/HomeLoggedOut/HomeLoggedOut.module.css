@@ -1,19 +1,18 @@
-/* HomeLoggedOut.module.css */
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh; /* Centers content vertically */
+  min-height: 80vh; 
   text-align: center;
-  font-family: 'Inter', sans-serif; /* Modern font */
-  color: #4a4a4a; /* Soft dark text color */
+  font-family: 'Inter', sans-serif; 
+  color: #4a4a4a; 
 }
 
 .title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #5a3d9c; /* Deep violet color */
+  color: #5a3d9c; 
   margin: 0;
 }
 

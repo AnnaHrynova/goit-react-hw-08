@@ -1,27 +1,22 @@
 .wrap {
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 15px;
-  max-width: 400px;
-  margin: 0 auto;
 }
 
 .link {
   font-size: 18px;
-  /* margin: 0 15px; */
   padding: 10px 15px;
   font-weight: 600;
-  color: #5b3ea3; /* Deep violet for text */
+  color: #5b3ea3; 
   text-decoration: none;
   transition: color 0.3s ease, color 0.3s ease;
   box-sizing: border-box;
 }
 
 .link:hover {
-  color: #ec41ff; /* Darker text color on hover */
+  color: #ec41ff; 
 }
 
 .link.active {
-  color: #ec41ff; /* Remove underline on active */
+  color: #ec41ff;
 }

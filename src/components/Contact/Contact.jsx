@@ -3,14 +3,14 @@ import { deleteContact } from "../../redux/contacts/operations";
 import { HiUser, HiPhone } from "react-icons/hi2";
 import css from "./Contact.module.css";
 
-export default function Contact({ contact }){
+export default function Contact({ data }){
     const dispatch = useDispatch();
 
-    if (!contact) {
+    if (!data) {
       return null; 
     }
   
-    const { id, name, number } = contact;
+    const { id, name, number } = data;
 
   return (
     <div className={css.contactCard}>

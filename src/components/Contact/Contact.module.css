@@ -1,12 +1,12 @@
-/* Contact.module.css */
+
 
 .contactCard {
-    background-color: #faf9ff; /* Very light violet background */
+    background-color: #faf9ff; 
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    font-family: 'Inter', sans-serif; /* Modern font */
+    font-family: 'Inter', sans-serif; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,7 @@
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: linear-gradient(135deg, #7a5bcd, #5b3ea3); /* Gradient button */
+    background: linear-gradient(135deg, #7a5bcd, #5b3ea3); 
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -45,8 +45,8 @@
   }
   
   .deleteBtn:hover {
-    background: linear-gradient(135deg, #6947b5, #4a2b85); /* Darker gradient on hover */
-    transform: translateY(-2px); /* Subtle lift effect */
+    background: linear-gradient(135deg, #6947b5, #4a2b85); 
+    transform: translateY(-2px); 
   }
   
   .deleteBtn:focus {
@@ -54,7 +54,7 @@
   }
   
   .HiUser, .HiPhone {
-    color: #5b3ea3; /* Matching icon color */
+    color: #5b3ea3; 
   }
   
   
